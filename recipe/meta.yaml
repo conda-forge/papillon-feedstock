@@ -1,6 +1,6 @@
 {% set name = "papillon" %}
-{% set version = "0.0.9" %}
-{% set sha256 = "f2373de57bec830a5147a82688562dae4942078c07b32498738693c581a3c777" %}
+{% set version = "0.1.0" %}
+{% set sha256 = "624fc55e39656d9f44f8b87adbc44f70c612dabc2f33210c076b4b4956a5dbc9" %}
 
 package:
   name: {{ name|lower }}
