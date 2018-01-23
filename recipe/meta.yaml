@@ -1,6 +1,6 @@
 {% set name = "papillon" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "624fc55e39656d9f44f8b87adbc44f70c612dabc2f33210c076b4b4956a5dbc9" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "d0c10256a280299e09cc41f8024ef0bebefbba3a555a42b363f28ba67c6dc368" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ about:
   license: MPL-2.0
   license_family: OTHER
   license_file: LICENSE
-  summary: 'A Python module to read and plot Galaxy RNA-seq data'
+  summary: 'A Python module to read and plot cuffdiff/Galaxy RNA-seq data'
 
   doc_url: https://github.com/domenico-somma/Papillon/wiki/Manual
   dev_url: https://github.com/domenico-somma/Papillon
