@@ -1,6 +1,6 @@
 {% set name = "papillon" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "624fc55e39656d9f44f8b87adbc44f70c612dabc2f33210c076b4b4956a5dbc9" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "d461f6742e7c39d98a2eaa183417dcf1e728e254be59cad14e8455a36bd339a7" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
     - setuptools
   run:
     - python
-    - pandas >=0.17.1
+    - pandas >=0.23
     - seaborn >=0.8.1
 
 test:
