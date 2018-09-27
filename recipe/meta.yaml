@@ -22,7 +22,7 @@ requirements:
     - setuptools
   run:
     - python
-    - pandas >=0.17.1
+    - pandas >=0.23
     - seaborn >=0.8.1
 
 test:
